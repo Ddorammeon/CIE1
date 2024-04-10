@@ -96,6 +96,9 @@
 
     <!-- Styles CSS -->
     <link rel="stylesheet" href="./asset/css/styles.css" />
+
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="./asset/css/responsive.css" />
   </head>
   <body>
     <header class="header">
@@ -118,10 +121,10 @@
         <!-- Hero -->
         <section class="hero">
           <div class="hero__body">
-            <h1 class="hero__heading">
+            <h1 class="hero__heading heading-1">
               Hệ thống quản lý học tập thế hệ mới <strong>LMS NeoLearn</strong>
             </h1>
-            <p class="hero__desc">
+            <p class="hero__desc desc">
               NeoLearn tái định nghĩa trải nghiệm học tập với công nghệ tiên
               tiến, mang đến một môi trường giáo dục độc đáo, linh hoạt và hấp
               dẫn
@@ -141,8 +144,8 @@
       <section class="feature">
         <div class="main-content">
           <p class="feature__info">Ưu điểm</p>
-          <h2 class="feature__heading">Tính năng nổi bật</h2>
-          <p class="feature__desc">
+          <h2 class="feature__heading heading-1">Tính năng nổi bật</h2>
+          <p class="feature__desc desc">
             LMS NeoLearn được tích hợp các công nghệ hiện đại, mang đến giải
             pháp học tập độc đáo, tăng tương tác giữa cộng đồng sinh viên và
             giữa giảng viên với sinh viên
@@ -151,38 +154,38 @@
             <!-- Feature item 1 -->
             <section class="feature--item row">
               <div class="feature--item__left col">
-                <div class="feature--item__content">
-                  <h3 class="feature--item__heading">AI Voice</h3>
-                  <p class="feature--item__desc">
-                    Công nghệ trí tuệ nhân tạo AI Voice tạo giọng giảng bài của
-                    thầy cô, tạo nên sự chân thực và sống động cho mỗi bài giảng
-                  </p>
-                </div>
                 <img
                   src="./asset/img/feature-item-1.svg"
                   alt=""
                   class="feature--item__img"
                 />
-              </div>
-              <div class="feature--item__right col">
                 <div class="feature--item__content">
-                  <h3 class="feature--item__heading">Gamification</h3>
-                  <p class="feature--item__desc">
-                    Tích hợp hơn 20 trò chơi giáo dục tương tác, giúp tăng cường
-                    tương tác, tạo hứng thú học tập cho sinh viên, giúp quá
-                    trình học tập và tiếp thu kiến thức dễ dàng, thú vị hơn
+                  <h3 class="feature--item__heading heading-1">AI Voice</h3>
+                  <p class="feature--item__desc desc">
+                    Công nghệ trí tuệ nhân tạo AI Voice tạo giọng giảng bài của
+                    thầy cô, tạo nên sự chân thực và sống động cho mỗi bài giảng
                   </p>
                 </div>
+              </div>
+              <div class="feature--item__right col">
                 <img
                   src="./asset/img/feature-item-2.svg"
                   alt=""
                   class="feature--item__img"
                 />
+                <div class="feature--item__content">
+                  <h3 class="feature--item__heading heading-1">Gamification</h3>
+                  <p class="feature--item__desc desc">
+                    Tích hợp hơn 20 trò chơi giáo dục tương tác, giúp tăng cường
+                    tương tác, tạo hứng thú học tập cho sinh viên, giúp quá
+                    trình học tập và tiếp thu kiến thức dễ dàng, thú vị hơn
+                  </p>
+                </div>
               </div>
             </section>
 
             <!-- Feature item 2 -->
-            <section class="feature--item">
+            <section class="feature--item feature--item__block">
               <div class="feature__media--block">
                 <div class="feature__img--block feature__img--block__pink">
                   <img
@@ -198,8 +201,10 @@
                     class="feature__icon"
                   />
                   <div>
-                    <h4 class="feature--info__heading">Bài giảng mở MOOC</h4>
-                    <p class="feature--info__desc">
+                    <h4 class="feature--info__heading heading-1">
+                      Bài giảng mở MOOC
+                    </h4>
+                    <p class="feature--info__desc desc">
                       Dễ dàng truy cập, đăng ký học tập
                     </p>
                   </div>
@@ -208,10 +213,10 @@
 
               <div class="feature__content--block">
                 <div class="feature__content--info">
-                  <h3 class="feature__content__heading">
+                  <h3 class="feature__content__heading heading-1">
                     Bài giảng thiết kế chuẩn MOOC
                   </h3>
-                  <p class="feature__content__desc">
+                  <p class="feature__content__desc desc">
                     Mỗi bài giảng được thiết kế tỉ mỉ theo chuẩn MOOC, cung cấp
                     nội dung giáo dục chất lượng, dễ dàng tiếp cận và phù hợp
                     với mọi đối tượng học viên
@@ -316,7 +321,7 @@
           <div class="popular__content">
             <div class="popular__main">
               <div class="popular__info">
-                <h2 class="popular__heading">Tích hợp HTML5</h2>
+                <h2 class="popular__heading heading-1">Tích hợp HTML5</h2>
                 <button class="btn popular__btn">
                   <p class="btn__text">Trải nghiệm</p>
                   <img
@@ -326,7 +331,7 @@
                   />
                 </button>
               </div>
-              <p class="popular__desc">
+              <p class="popular__desc desc">
                 NeoLearn tích hợp HTML5 cho phép tạo ra và hiển thị nội dung đa
                 phương tiện mượt mà, tương thích trên mọi thiết bị, giúp nâng
                 cao trải nghiệm học tập với các bài giảng đa dạng từ văn bản,
@@ -340,8 +345,12 @@
                 class="popular--popup__icon"
               />
               <div>
-                <h4 class="popular--popup__heading">Hỗ trợ HTML5</h4>
-                <p class="popular--popup__desc">- Nội dung đa phương tiện</p>
+                <h4 class="popular--popup__heading popular--popup">
+                  Hỗ trợ HTML5
+                </h4>
+                <p class="popular--popup__desc popular--popup">
+                  - Nội dung đa phương tiện
+                </p>
               </div>
             </div>
           </div>
@@ -354,10 +363,10 @@
           <div class="customize--content">
             <div class="customize--content__block">
               <p class="customize__info">Ưu điểm</p>
-              <h3 class="customize__heading">
+              <h3 class="customize__heading heading-1">
                 Tuỳ chỉnh giao diện phù hợp với nhu cầu doanh nghiệp
               </h3>
-              <p class="customize__desc">
+              <p class="customize__desc desc">
                 Hệ thống LMS cũng cho phép tùy chỉnh giao diện dựa trên nhu cầu
                 cụ thể, đảm bảo trải nghiệm người dùng tốt nhất, phù hợp với yêu
                 cầu và mong muốn riêng của từng đối tác
