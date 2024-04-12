@@ -20,6 +20,7 @@
   .desc {
     width: 99%;
     font-size: 1.47rem;
+    font-weight: 400;
     line-height: 1.8rem;
   }
 
@@ -52,7 +53,11 @@
   }
 
   .feature {
-    margin-top: 85px;
+    margin-top: 25px;
+  }
+
+  .feature__desc {
+    margin-bottom: 0;
   }
 
   .feature--item {
@@ -70,8 +75,98 @@
     padding: 0 30px 50px;
   }
 
+
   .feature__content--block {
     width: 100%;
+  }
+
+  .feature__img--block {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+
+  .feature__img {
+    width: 100%;
+    height: auto;
+    padding: 12px;
+    border-radius: 10px;
+  }
+
+  .feature__content--more {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 25px;
+  }
+
+  .feature__more--block {
+    margin-top: 25px;
+  }
+
+  .feature--info--block {
+    padding: 10px;
+  }
+
+  .feature--info__heading {
+    font-size: 0.91rem;
+    font-weight: 700;
+    line-height: 1.46rem;
+  }
+
+  .feature--info__desc {
+    font-size: 0.77rem;
+    font-weight: 400;
+    line-height: 1rem;
+  }
+
+  .feature__icon {
+    width: 28.75px;
+    height: 28.75px;
+  }
+
+  .feature--info--block__right {
+    left: 50px;
+    right: auto;
+    bottom: -20px;
+  }
+
+  .feature--info--block__left {
+    left: auto;
+    right: 50px;
+    bottom: -20px;
+  }
+
+  .feature__content__desc {
+    margin-top: 30px;
+  }
+
+  .feature__content__desc:after {
+    bottom: -25px;
+  }
+
+  .feature--item__blue {
+    flex-direction: column;
+  }
+
+  .feature__content--more__blue {
+    flex-direction: row;
+  }
+
+  .feature--more__desc-3 {
+    width: 79px;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 2.05rem;
+  }
+
+  .feature--more__desc strong {
+    font-size: 2.4rem;
+    font-weight: 700;
+    line-height: 3.2rem
+  }
+
+  .popular {
+    margin-top: 90px;
   }
 
   .popular__content {
@@ -110,6 +205,10 @@
 
   .popular--popup__block {
     right: 35px;
+  }
+
+  .customize {
+    margin-top: 60px;
   }
 
   .customize--content {
@@ -165,7 +264,7 @@
   }
 
   .feature--item {
-    margin-top: 115px;
+    margin-top: 75px;
   }
 
 }
@@ -177,7 +276,7 @@
   }
 
   .feature--item {
-    margin-top: 100px;
+    margin-top: 60px;
   }
 
   .feature--item__content {
